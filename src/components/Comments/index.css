@@ -1,0 +1,102 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    margin-top: 96px;
+  }
+}
+
+.comments-app-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-app-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    flex-direction: row;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.comments {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.input {
+  margin-bottom: 8px;
+  width: 200px;
+}
+
+.button {
+  height: 40px;
+  width: 120px;
+  background-color: #0b69ff;
+  color: white;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 8px;
+}
+
+.comments-img {
+  height: 200px;
+  margin-left: 30px;
+}
+.line-break {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+.count {
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'Roboto';
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+  margin-right: 5px;
+}
+.comments {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.comment-list-container {
+  list-style-type: none;
+}
